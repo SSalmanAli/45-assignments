@@ -1,0 +1,23 @@
+// // More Conditional Tests
+var name_a = "Car";
+var name_b = "car";
+console.log(name_a === name_b);
+console.log(name_a !== name_b);
+var word = "HelloWorld";
+console.log(word.toLowerCase() === "HelloWorld");
+console.log(word.toLowerCase() === "helloworld");
+var num1 = 55;
+var num2 = 99;
+console.log(num1 === num2);
+console.log(num1 !== num2);
+console.log(num1 < num2);
+console.log(num1 <= num2);
+console.log(num1 > num2);
+console.log(num1 >= num2);
+var cond1 = true;
+var cond2 = false;
+console.log(cond1 && cond2);
+console.log(cond1 || cond2);
+var cars = ["Lamborghini", "BMW", "Ferrari", "Porsche"];
+console.log(cars.includes("Lamborghini"));
+console.log(cars.includes("lamborghini"));
